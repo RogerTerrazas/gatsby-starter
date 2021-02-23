@@ -21,6 +21,8 @@ collections:
           - {label: Twitter, name: twitter, widget: string}
           - {label: Facebook, name: facebook, widget: string}
           - {label: LinkedIn, name: linkedin, widget: string}
+          - {label: GitHub, name: github, widget: string}
+          - {label: Resume, name: resume, widget: string}
           - label: Education
             name: education
             widget: list

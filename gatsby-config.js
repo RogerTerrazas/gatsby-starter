@@ -10,14 +10,23 @@ module.exports = {
     title: `Gatsby Starter`,
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-material-ui`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-transformer-remark`, 
   {
     resolve: `gatsby-source-filesystem`,
     options: {
       name: `src`,
-      path: `${__dirname}/src`,
+      path: `${__dirname}/src/`,
     },
   },
+  `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/content/`,
+      },
+    },
 ],
 }
