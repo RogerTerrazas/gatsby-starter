@@ -1,5 +1,6 @@
 backend:
-    name: git-gateway
+    name: github
+    repo: RogerTerrazas/gatsby-starter
     branch: master
   
 media_folder: static/img
